@@ -20,3 +20,31 @@
 
 #### >Untuk menambahkan daftar-daftar gunakan ".append()"
 ```
+data.append([nama,nim,tugas,uts,uas,int(akhir)])
+```
+
+#### >untuk melakukan perulangan input yang ingin digunakan untuk menambahakan data atau tidak (y/t)
+```
+tanya = input('Tambahkan Data (y/t) ? ')
+```
+
+#### >untuk tampilan daftar datanya
+```
+print("==================================================================")
+print("| No |    Nama      |  NIM  | Tugas |  UTS  |  UAS  |  Akhir |")
+print("==================================================================")
+
+i = 0
+
+for nilai in data:
+    i += 1
+    print("| {no}  | {nama:12s} | {nim:5s} | {tugas:5d} | {uts:5d} | {uas:5d} | {akhir:6.2f} |".format(no=i, nama=nilai[0], nim=nilai[1], tugas=nilai[2],uts=nilai[3],uas=nilai[4],akhir=nilai[5]))
+
+print("==================================================================")
+```
+
+#### >outputnya
+
+![Screenshot (619)](https://user-images.githubusercontent.com/115686359/202857437-818146b9-4b8a-4471-ab88-8abe28c37bd5.png)
+
+# Selesai.
