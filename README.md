@@ -49,6 +49,6 @@ print("==================================================================")
 
 #### >Flowchart
 
-![WhatsApp Image 2022-11-19 at 22 20 07](https://user-images.githubusercontent.com/115686359/202858191-7ebb62f6-0749-4f31-b9e8-eafd6f696215.jpeg)
+![Screenshot (620)](https://user-images.githubusercontent.com/115686359/202887643-03227871-59fd-49fa-8cf5-9e3c11b35996.png)
 
 # Selesai.
